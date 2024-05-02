@@ -11,8 +11,8 @@
     <header></header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="titulo-destaque"><strong>Formulário de Inscrição</strong></h1>
-            <div class="titulo_nome">
+            <h1 class="titulo__destaque"><strong>Formulário de Inscrição</strong></h1>
+            <div class="titulo__nome">
                 <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
             </div>
             <div class="titulo__email">
@@ -22,13 +22,13 @@
                 <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
             </div>
             <div class="titulo__RG">
-                <input type="text" id="rg" name="rg" placeholder="Documento de Identidade" required>
+                <input type="text" id="rg" name="rg" placeholder="RG" required>
             </div>
             <div class="titulo__CPF">
                 <input type="text" id="cpf" name="cpf" placeholder="CPF" required>
             </div>
             <div class="titulo__Nascimento">
-                <label for="escolaridade">Data de Nascimento:</label>
+                <label for="nascimento">Data de Nascimento:</label>
                 <input type="date" id="nascimento" name="nascimento"required>
             </div>
             <div class="titulo__endereco">
@@ -48,7 +48,7 @@
                 </select>
             </div>
             <div class="titulo__trilhas">
-                <label for="area-interesse">Qual trilha de interesse:</label>
+                <label for="area__interesse">Qual trilha de interesse:</label>
                 <div class="selecionar__opcao">
                     <select id="trilha-interesse" name="trilha-interesse" required>
                         <option value="">Selecione...</option>
@@ -67,7 +67,7 @@
             <div class="anexar__documento">
                 <label for="documento-identidade">Documento de Identidade (JPG, PNG ou PDF):</label>
                 <input type="file" id="documento-identidade" name="documento-identidade" accept=".jpg, .jpeg, .png, .pdf" required>
-                <p class="campos-obrigatorios">* Atenção: Todos os campos são obrigatórios</p>
+                <p class="campos__obrigatorios">* Atenção: Todos os campos são obrigatórios</p>
             </div>
             <div class="botoes">
                 <input type="submit" class="botao__enviar" value="Enviar">
