@@ -168,13 +168,10 @@ select[multiple] {
     background-color: #F6F6F6;
 }
 
-img.trilhas {
-    position: relative;
-    top: 50%;
-    right: 20px;
-    width: calc(60% - 40px);
-    max-width: 600px;
-    height: auto; 
+.apresentacao__imagem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .campos__obrigatorios {
